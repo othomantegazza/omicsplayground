@@ -69,7 +69,7 @@ the source code:
 4. Change the current directory into the ``shiny/`` folder and execute the following command
    to run the platform::
 
-    R -e "shiny::runApp(launch.browser=TRUE)"
+    R -e "shiny::runApp(appDir = 'shiny',launch.browser=TRUE)"
 
    If you have Shiny Server installed you can create a link to the
    shiny folder in the system-wide shiny-server apps folder or in your
