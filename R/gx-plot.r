@@ -151,7 +151,7 @@ gx.b3plot <- function(x, y, first=NULL,
     
     ##par(mfrow=c(1,1));srt=60
     ##bx = barplot( mx-xoff, width=0.6666, space=0.5, ylim=ylim, offset=xoff, names.arg=NA)
-    bx = barplot( mx, width=0.6666, space=0.5, ylim=ylim, offset=xoff,
+    bx = barplot( rep(0, times = length(mx)), width=0.6666, space=0.5, ylim=ylim, offset=xoff,
                  names.arg=NA, col=col, ... )
     if(is.null(srt)) {
         nnchar <- sum(sapply(unique(y),nchar))
@@ -179,7 +179,7 @@ gx.b3plot <- function(x, y, first=NULL,
         beeswarm::beeswarm(x[jj] ~ y[jj], add=TRUE, at=1:n-0.33, pch=19, cex=bee.cex, col="grey20")
         ## sinaplot( x[jj] ~ y[jj], add=TRUE, pch=19, cex=bee.cex, col="grey20")
     }
-    if(bar) stats.segments(y, x, xoffset=-0.333, lwd=1.4)
+    if(bar) # stats.segments(y, x, xoffset=-0.333, lwd=1.4)
 
     if(sig.stars) {
         i=1
