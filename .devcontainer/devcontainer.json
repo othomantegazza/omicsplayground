@@ -51,7 +51,8 @@
 		"REditorSupport.r",
 		"REditorSupport.r-lsp", 
 		"RDebugger.r-debugger",
-		"christian-kohler.path-intellisense"
+		"christian-kohler.path-intellisense",
+		"ms-azuretools.vscode-docker"
 	]
 	// "mounts": [
 	//	{
