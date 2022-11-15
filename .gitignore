@@ -1,5 +1,10 @@
 .env
 
+# plots
+**.svg
+**.jpeg
+**.png
+
 # R data
 ######################
 .RData
