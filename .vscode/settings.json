@@ -1,5 +1,7 @@
 {
     "r.plot.useHttpgd": true,
     "r.bracketedPaste": true,
+    "svg.preview.background": "custom",
+    "r.lsp.promptToInstall": false,
     //"r.rterm.linux": "/opt/conda/envs/r-renv-devcon/bin/radian"
 }
