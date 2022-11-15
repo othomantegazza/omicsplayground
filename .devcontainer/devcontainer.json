@@ -1,6 +1,6 @@
 {
 	"name": "Basic R Container",
-	"dockerComposeFile": "../compose.yml",
+	"dockerComposeFile": "docker-compose.yml",
     "service": "dev-renv",
 	"workspaceFolder": "/project",
 	//"build": {
@@ -52,7 +52,8 @@
 		"REditorSupport.r-lsp", 
 		"RDebugger.r-debugger",
 		"christian-kohler.path-intellisense",
-		"ms-azuretools.vscode-docker"
+		"ms-azuretools.vscode-docker",
+		"jock.svg"
 	]
 	// "mounts": [
 	//	{
